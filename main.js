@@ -20,3 +20,6 @@ function clear() {
       ctx.fillRect(0, 0, 200, 100);
 
 }
+
+document.getElementById("button_start").addEventListener("click", start);
+document.getElementById("button_clear").addEventListener("click", clear);
