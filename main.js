@@ -16,7 +16,7 @@ function clear() {
       const canvas = document.getElementById("myCanvas");
       const ctx = canvas.getContext("2d");
 
-      ctx.fillStyle = "white";
+      ctx.fillStyle = "blue";
       ctx.fillRect(0, 0, 200, 100);
 
 }
