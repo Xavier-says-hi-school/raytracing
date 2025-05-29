@@ -9,7 +9,7 @@ function start() {
       
       // Fill with gradient
       ctx.fillStyle = grd;
-      ctx.fillRect(10,10,150,80);
+      ctx.fillRect(10, 10, 150, 80);
 }
 
 function clear() {
@@ -17,6 +17,6 @@ function clear() {
       const ctx = canvas.getContext("2d");
 
       ctx.fillStyle = "white";
-      ctx.fillRect(20, 20, 150, 100);
+      ctx.fillRect(0, 0, 200, 100);
 
 }
